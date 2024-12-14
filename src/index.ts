@@ -5,7 +5,6 @@ import taskRoutes from './routes/taskRoutes';
 import cors from 'cors';
 
 dotenv.config();
-
 const app: Express = express();
 app.use(cors());
 app.use(express.json());

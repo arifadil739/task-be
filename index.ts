@@ -1,7 +1,7 @@
 import express, { Express, Request, Response } from "express";
 import dotenv from "dotenv";
 import mongoose from "mongoose";
-import taskRoutes from './routes/taskRoutes';
+import taskRoutes from './src/routes/taskRoutes';
 import cors from 'cors';
 
 dotenv.config();
